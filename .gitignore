@@ -1,15 +1,19 @@
+# GO
 # Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+test_go/*.exe
+test_go/*.exe~
+test_go/*.dll
+test_go/*.so
+test_go/*.dylib
 
 # Test binary, built with `go test -c`
-*.test
+test_go/*.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+test_go/*.out
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# RUST
+test_rust/target
